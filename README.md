@@ -4,9 +4,9 @@
 
 ### DOM ready & document loaded JavaScript listeners
 
+- Lightweight (less than 250b minified and gzipped)
 - No dependencies
-- Includes functional and DOM utility functions
-- Lightweight and untranspiled
+- Transpile to desired browser target (syntax only)
 
 Built with ❤️ by [GRRR](https://grrr.tech).
 
@@ -36,12 +36,16 @@ onDocumentLoaded(() => {
 
 ## DOM ready
 
-- Will fire when [Document.readyState
+The `onDomReady` function:
+
+- Will fire directly when [Document.readyState
 ](https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState) is not `loading` (so `interactive` or `complete`).
 - Listens for both [DOMContentLoaded](https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event) and [readystatechange](https://developer.mozilla.org/en-US/docs/Web/API/Document/readystatechange_event) if not yet ready.
 
 ## Document loaded
 
-- Will fire when [Document.readyState
+The `onDocumentLoaded` function:
+
+- Will fire directly when [Document.readyState
 ](https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState) is `complete`.
 - Listens for [readystatechange](https://developer.mozilla.org/en-US/docs/Web/API/Document/readystatechange_event) if not yet complete.

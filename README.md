@@ -6,7 +6,7 @@
 
 - Lightweight (less than 250b minified and gzipped)
 - No dependencies
-- Transpile to desired browser target (syntax only)
+- Supports IE 9+
 
 Built with ❤️ by [GRRR](https://grrr.tech).
 

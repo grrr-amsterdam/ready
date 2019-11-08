@@ -1,6 +1,6 @@
 {
   "name": "@grrr/ready",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Listener for DOM and document ready and loaded events",
   "main": "index.mjs",
   "author": "GRRR <npm@grrr.nl>",

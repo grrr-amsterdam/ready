@@ -3,7 +3,7 @@ const isDomReady = () => document.readyState !== 'loading';
 /**
  * Execute function when DOM is ready.
  */
-export const onDomReady = fn => {
+const onDomReady = fn => {
   let isReady = false;
   const execute = () => {
     if (isReady) {
@@ -20,3 +20,5 @@ export const onDomReady = fn => {
     document.addEventListener('readystatechange', execute, false);
   }
 };
+
+export default onDomReady;
